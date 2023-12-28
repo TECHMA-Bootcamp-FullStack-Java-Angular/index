@@ -96,16 +96,18 @@ footer {
     }
   }
 }
-
+.card{
+  background-color: #1E293B;
+}
 
 footer {
   display: block;
 }
 
-/* Media query para pantallas más pequeñas, como dispositivos móviles */
+
 @media only screen and (max-width: 600px) {
   footer {
-    display: none; /* Oculta el footer en pantallas más pequeñas */
+    display: none; 
   }
 }
 
