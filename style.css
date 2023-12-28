@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  display: flexbox;
+  /* background-color: rgb(20, 45, 66); */
+}
+
+#text-fundaion-esplai{
+  font-family: 'Nunito Sans', sans-serif ;
+  letter-spacing: -3px;
+}
+
+.card{
+  cursor: pointer;
+  display: grid;
+}
+.card:hover{
+  transition: background-color 0.5s;
+  -webkit-box-shadow: 0px 0px 102px -7px rgba(235,18,235,0.63);
+  -moz-box-shadow: 0px 0px 102px -7px rgba(235,18,235,0.63);
+  box-shadow: 0px 0px 102px -7px rgba(235,18,235,0.63);
+}
+.difficulty {
+  /* display: inline; */
+  display: grid ;
+  justify-items: end;
+  margin-top: 6 px;
+  margin-bottom: 0;
+
+}
+
+.icon-tabler-clock-star {
+  color: rgb(244, 196, 6);
+}
+.icon-tabler-clock-shield {
+  color: rgb(247, 2, 165);
+}
+.icon-tabler-clock-bolt {
+  color: rgb(24, 235, 165);
+}
+
+footer {
+  position: sticky;
+  margin: 0;
+  bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to right, #f405b4a7, #03218c92);
+  width: 100%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+
+  & p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+    color: #f3f6f7;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  & .collaborator {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+
+  .columna-1,
+  .columna-2,
+  .columna-3,
+  .columna-4 {
+    display: grid;
+    padding: 0;
+    margin: 0;
+
+    & img {
+      place-self: center;
+
+      &.espai {
+        filter: invert(100%);
+        -webkit-filter: invert(100%);
+        width: 55%;
+      }
+      &.systems {
+        width: 37%;
+      }
+      &.techma {
+        width: 50%;
+      }
+      &.camara {
+        filter: invert(100%);
+        -webkit-filter: invert(100%);
+        width: 45%;
+      }
+    }
+  }
+}
