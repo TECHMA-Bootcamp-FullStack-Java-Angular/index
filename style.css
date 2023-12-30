@@ -1,4 +1,11 @@
+:root {
+  --background-color: #f8f5f5;
+  --text-color: #1d1c1c;
+}
+
 body {
+  background-color: var(--background-color);
+  color: var(--text-color);
   margin: 0;
   display: flexbox;
   /* background-color: rgb(20, 45, 66); */
