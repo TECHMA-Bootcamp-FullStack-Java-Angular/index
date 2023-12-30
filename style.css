@@ -19,6 +19,12 @@ body {
 .card{
   cursor: pointer;
   display: grid;
+  background-color: #1E293B;
+
+
+  & small{
+    color: white;
+  }
 }
 .card:hover{
   transition: background-color 0.5s;
